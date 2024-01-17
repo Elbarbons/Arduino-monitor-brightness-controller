@@ -78,7 +78,7 @@ def animate(i, xs, ys, xs1, ys1):
         sbc.set_brightness(light)
 
 
-ani = animation.FuncAnimation(fig, animate, fargs=(xs, ys, xs1, ys1), interval=30000)  # DOVREBBERO ESSERE 1 MIN
+ani = animation.FuncAnimation(fig, animate, fargs=(xs, ys, xs1, ys1), interval=30000)
 plt.show()
 
 print("Program ended")
