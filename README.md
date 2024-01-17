@@ -9,6 +9,7 @@ This repository contains the Arduino code and circuit schematics to build a devi
 - **Auto Brightness Control:** The device adjusts monitor brightness in real-time according to the surrounding light conditions.
 - **Energy Efficiency:** Optimize power consumption by automatically dimming the monitor in low-light environments.
 - **Customizable Settings:** Easily configure sensitivity and brightness thresholds to suit your preferences.
+- **Real time monitoring:** A window containing a graph of surrounding light intensity over time and a graph of monitor brightness over time is displayed.
 
 ## Hardware Requirements
 
@@ -16,8 +17,6 @@ This repository contains the Arduino code and circuit schematics to build a devi
 - Light sensors (e.g., ARCELI TSL2561)
 - Monitor with adjustable brightness settings
 
-## Getting Started
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/arduino-light-sensing-brightness-controller.git
+## Arduino scheme
+The image below illustrates the comprehensive schematic diagram for building our project. This visual guide outlines the connections and configurations necessary to assemble the hardware components and create a fully functional system. 
+![Scheme](https://github.com/Elbarbons/arduino-monitor-brightness-controller/assets/73446737/89591608-dee5-46fc-b780-991c74825e66)
