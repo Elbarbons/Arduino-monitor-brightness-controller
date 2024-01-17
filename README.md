@@ -11,12 +11,19 @@ This repository contains the Arduino code and circuit schematics to build a devi
 - **Customizable Settings:** Easily configure sensitivity and brightness thresholds to suit your preferences.
 - **Real time monitoring:** A window containing a graph of surrounding light intensity over time and a graph of monitor brightness over time is displayed.
 
-## Hardware Requirements
+## Required Libraries
+Ensure you have the following libraries installed before running the project:
+- matplotlib
+- serial
+- screen_brightness_control
+  
+## Arduino scheme
+The image below illustrates the comprehensive schematic diagram for building our project. This visual guide outlines the connections and configurations necessary to assemble the hardware components and create a fully functional system. 
+
+![Scheme](https://github.com/Elbarbons/arduino-monitor-brightness-controller/assets/73446737/89591608-dee5-46fc-b780-991c74825e66)
+
+### Hardware Requirements
 
 - Arduino board (e.g., Arduino Uno)
 - Light sensors (e.g., ARCELI TSL2561)
 - Monitor with adjustable brightness settings
-
-## Arduino scheme
-The image below illustrates the comprehensive schematic diagram for building our project. This visual guide outlines the connections and configurations necessary to assemble the hardware components and create a fully functional system. 
-![Scheme](https://github.com/Elbarbons/arduino-monitor-brightness-controller/assets/73446737/89591608-dee5-46fc-b780-991c74825e66)
