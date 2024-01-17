@@ -27,3 +27,6 @@ The image below illustrates the comprehensive schematic diagram for building our
 - Arduino board (e.g., Arduino Uno)
 - Light sensors (e.g., ARCELI TSL2561)
 - Monitor with adjustable brightness settings
+
+## License
+This project is licensed under the MIT License.
