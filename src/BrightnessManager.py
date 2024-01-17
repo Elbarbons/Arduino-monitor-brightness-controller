@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import serial
 from time import sleep
-import ddc_ci
 
 # Connection
 port = 'COM3'
